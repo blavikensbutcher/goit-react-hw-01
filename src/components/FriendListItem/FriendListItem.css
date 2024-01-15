@@ -1,0 +1,30 @@
+.status.is-online {
+    color: green;
+}
+
+.status.is-offline {
+    color: red;
+}
+
+.item .avatar {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.friend-list li {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px 5px 5px 0;
+}
+
+.friend-list .name {
+    font-weight: 400;
+    margin: 0;
+}
+
+.friend-list .status {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
