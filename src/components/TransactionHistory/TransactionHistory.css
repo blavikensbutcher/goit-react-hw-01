@@ -29,4 +29,6 @@
 
 .transaction-history tbody tr:hover {
     background-color: #e0e0e0;
+    scale: 1.05;
+    transition: scale 0.3s ease-in-out;
 }
