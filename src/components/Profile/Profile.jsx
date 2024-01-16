@@ -22,15 +22,15 @@ export const Profile = ({name, tag, stats: {followers, likes, views}, location, 
 
             <ul className="stats">
                 <li>
-                    <span className="label">Followers</span>
-                    <span className="value"> <BsPersonFill /> {followers}</span>
+                    <span className="label">Followers:</span>
+                    <span className="value"> <span className="follower-icon"><BsPersonFill /></span> {followers}</span>
                 </li>
                 <li>
-                    <span className="label">Views</span>
+                    <span className="label">Views:</span>
                     <span className="value"> <FaRegEye /> {views}</span>
                 </li>
                 <li>
-                    <span className="label">Likes</span>
+                    <span className="label">Likes:</span>
                     <span className="value"> <FcLike />︎ {likes}</span>
                 </li>
             </ul>
